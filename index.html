@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Color</title>
+</head>
+<body>
+    <div class="main-container">
+    <div class="container">
+        <div class="image-holder">
+            <img src="./car/grey.jpg" alt="" width="100%" id="change">
+        </div>
+        <p class="car">car</p>
+        <div class="info">
+            <h1 class="heading">Mahendra Thar</h1>
+            <div class="info-1">
+            <p class="mil"><img src="./icons/car.png" alt="car" width="22">Mileage : 4,000 miles</p>
+            <p class="mil"><img src="./icons/fuel.png" alt="">Fuel : 25mpg</p>
+            <p class="mil"><img src="./icons/safety.png" alt="" width="22">Safety : 5Star</a></p>
+            <p>Pick a Color</p>
+            <div class="shape">
+                <input type="button" value="" class="black circle" onclick="black()">
+                <input type="button" value=""class="white circle" onclick="white()">
+                <input type="button" value=""class="red circle" onclick="red()">
+                <span class="price">₹10.5 lakhs - ₹16.6 lakhs</span>
+            </div>
+            <!-- <input type="button" value="Buy Now" > -->
+            <button id="buy" onclick="result()">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
